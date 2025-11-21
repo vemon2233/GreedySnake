@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://bx5xx81hyoant"]
+
+[ext_resource type="Texture2D" uid="uid://cc05800c5ueb1" path="res://assets/image/body.png" id="1_xxyp4"]
+[ext_resource type="Script" uid="uid://bk0b16c0vv0j7" path="res://scripts/snake_body.gd" id="2_snake_body_script"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_w4nx1"]
+radius = 38.0
+
+[node name="SnakeBody" type="Node2D"]
+script = ExtResource("2_snake_body_script")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.527972, 0.52797204)
+texture = ExtResource("1_xxyp4")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_w4nx1")

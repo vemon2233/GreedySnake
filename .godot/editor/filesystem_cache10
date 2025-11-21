@@ -1,0 +1,19 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1763724608
+icon.svg::CompressedTexture2D::8760515922697439198::1763467981::1763467988::1::::<><><>0<>0<>34820722d1df75172b28fbed4442c6d1<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://assets/::1763473631
+::res://assets/image/::1763473712
+body.png::CompressedTexture2D::4966710291331232460::1763473702::1763473712::1::::<><><>0<>0<>a9dcd870844e0b8b5ceee11a6da82826<>res://.godot/imported/body.png-7619f6c17b47122ad6ac7f006a4a4d7f.ctex::
+snake_head.png::CompressedTexture2D::8497419985367557176::1763473642::1763473712::1::::<><><>0<>0<>932d59743cfbecb41c25f4e0171ff414<>res://.godot/imported/snake_head.png-c33ec0c34ac5fea3b88c337ea9127e68.ctex::
+::res://assets/image_raw/::1763473712
+屏幕截图 2025-11-18 205413.png::CompressedTexture2D::7784994932765390953::1763470482::1763473712::1::::<><><>0<>0<>aa7b0af9ae2e562ef9ac92d68bbeb6d2<>res://.godot/imported/屏幕截图 2025-11-18 205413.png-d9be730f6101a0c5282a39a429cfa1b1.ctex::
+屏幕截图 2025-11-18 205543.png::CompressedTexture2D::1437616997080050131::1763470545::1763473712::1::::<><><>0<>0<>a738cbffdc1da2553f33a452c2f99830<>res://.godot/imported/屏幕截图 2025-11-18 205543.png-40542496f30cf72d6b7417a7bc5256f6.ctex::
+::res://scripts/::1763724762
+snake.gd::GDScript::2248939273857831741::1763640865::0::1::::<>Node2D<><>0<>0<><>::
+snake_body.gd::GDScript::3140027344037479630::1763643618::0::1::::<>Node2D<><>0<>0<><>::
+snake_head.gd::GDScript::2573590740134349711::1763724762::0::1::::<>Node2D<><>0<>0<><>::
+::res://tscn/::1763643255
+main.tscn::PackedScene::8701880559476029137::1763639625::0::1::::<><><>0<>0<><>::uid://bhcuaudnqm05w::::res://tscn/snake.tscn
+snake.tscn::PackedScene::2883086740236736182::1763643255::0::1::::<><><>0<>0<><>::uid://dvldb88gorqrk::::res://tscn/snake_head.tscn<>uid://bx5xx81hyoant::::res://tscn/snake_body.tscn
+snake_body.tscn::PackedScene::4064134757869220765::1763642233::0::1::::<><><>0<>0<><>::uid://cc05800c5ueb1::::res://assets/image/body.png<>uid://bk0b16c0vv0j7::::res://scripts/snake_body.gd
+snake_head.tscn::PackedScene::8656121644085954036::1763724992::0::1::::<><><>0<>0<><>::uid://dtchjbd56tjee::::res://assets/image/snake_head.png<>uid://bcwwws8tfhr6f::::res://scripts/snake_head.gd
